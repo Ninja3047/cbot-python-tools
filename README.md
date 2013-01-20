@@ -32,4 +32,3 @@ The logging functionality for Google Spreadsheets uses the 'gspread' library:
 
 https://github.com/burnash/gspread
 
-Full source coming soon.
