@@ -32,3 +32,8 @@ The logging functionality for Google Spreadsheets uses the 'gspread' library:
 
 https://github.com/burnash/gspread
 
+TODO:
+
+- login information should probably be gathered from command line arguments
+- Code for optionally dumping logs to IRC (as opposed to google docs)
+
