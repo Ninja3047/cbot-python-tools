@@ -3,6 +3,10 @@ from lib.cleverbot import cbot_Session
 import shutil, time
 from django.utils.encoding import smart_str #fixes some unicode issues
 
+"""
+pof bot script
+"""
+
 class pof_bot():
     def __init__(self,u,p,pid):
         self.username=u
@@ -265,6 +269,7 @@ class pof_bot():
         return urls
         
 if __name__=="__main__":
+    #run the bot
     pof_uname="somechick" #pof username
     pof_pword="12345" #pof pword
     pof_pid="54321" #pof profile id

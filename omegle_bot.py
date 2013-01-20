@@ -8,6 +8,10 @@ import datetime
 import time
 from lib.gdata_sp import gspread_log 
 
+"""
+omegle bot script
+"""
+
 #This simply cuts the extra characters to isolate the ID
 def fmtId( string ):
     return string[1:len( string ) - 1]
@@ -125,14 +129,14 @@ def omegleConnect(id_, log):
 
 
 if __name__ == "__main__":
-
-	id = 0.    
-	google_id = "fubar@gmail.com"
-	google_pwd = "12345"
-	s_sheet_name = "cleverbot omegle log"
-	log = gspread_log(google_id, google_pwd, s_sheet_name)
-	#log.clear_perm()
-	while True:
-		id = omegleConnect(id, log)
-		#print id
-		time.sleep(2)
+    # run the bot
+    id = 0.    
+    google_id = "fubar@gmail.com"
+    google_pwd = "12345"
+    s_sheet_name = "cleverbot omegle log"
+    log = gspread_log(google_id, google_pwd, s_sheet_name)
+    #log.clear_perm()
+    while True:
+	    id = omegleConnect(id, log)
+	    #print id
+	    time.sleep(2)
