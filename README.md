@@ -7,9 +7,12 @@ python-cleverbot-tools
 A set of Python tools for the Cleverbot artificial intelligence algorithm
 
 Requires:
--BeautifulSoup (for pof site scraping)
--gspread (google docs logging for Omegle bot)
--Django (for a particular unicode string decoding function)
+
+- BeautifulSoup (for pof site scraping)
+
+- gspread (google docs logging for Omegle bot)
+
+- Django (for a particular unicode string decoding function)
 
 Main files:
 
